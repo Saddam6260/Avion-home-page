@@ -2,8 +2,13 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        lato: ["lato"],
+        inter: ["Inter"],
+        poppins: ["Poppins"],
+      },
+    },
   },
   plugins: [],
-}
-
+};
