@@ -536,19 +536,49 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.font-lato{
-  font-family: lato;
+.container{
+  width: 100%;
 }
 
-.font-poppins{
-  font-family: Poppins;
+@media (min-width: 640px){
+  .container{
+    max-width: 640px;
+  }
 }
 
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+@media (min-width: 768px){
+  .container{
+    max-width: 768px;
+  }
 }
 
-.font-bold{
-  font-weight: 700;
+@media (min-width: 1024px){
+  .container{
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px){
+  .container{
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px){
+  .container{
+    max-width: 1536px;
+  }
+}
+
+.container{
+  margin: auto;
+  width: 74%;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.font-medium{
+  font-weight: 500;
 }
