@@ -5,16 +5,25 @@
 @tailwind utilities;
 
 @layer components {
-    .container{
-        @apply m-auto w-[74%];
-    }
-    .main-heading{
-        @apply font-bold text-white text-[58px];
-    }
+  .container {
+    @apply m-auto w-[74%];
+  }
+  .heading {
+    @apply font-semibold leading-[140%];
+  }
+  .main-heading {
+    @apply font-bold text-white text-[58px];
+  }
+  .sec-name {
+    @apply text-orange text-sm font-medium tracking-[4.2px] font-poppins;
+  }
 }
 
 @layer base {
-    h1, h2, h3, h4{
-        @apply font-poppins;
-    }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-poppins;
+  }
 }

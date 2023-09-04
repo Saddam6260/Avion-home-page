@@ -436,7 +436,10 @@ video {
   display: none;
 }
 
-h1, h2, h3, h4{
+h1,
+  h2,
+  h3,
+  h4{
   font-family: Poppins;
 }
 
@@ -579,9 +582,22 @@ h1, h2, h3, h4{
   width: 74%;
 }
 
-.main-heading{
-  font-size: 58px;
-  font-weight: 700;
+.heading{
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.sec-name{
+  font-family: Poppins;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 4.2px;
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(245 76 30 / var(--tw-text-opacity));
+}
+
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
 }
