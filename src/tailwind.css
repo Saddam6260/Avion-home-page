@@ -8,4 +8,13 @@
     .container{
         @apply m-auto w-[74%];
     }
+    .main-heading{
+        @apply font-bold text-white text-[58px];
+    }
+}
+
+@layer base {
+    h1, h2, h3, h4{
+        @apply font-poppins;
+    }
 }
