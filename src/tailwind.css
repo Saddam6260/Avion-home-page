@@ -6,16 +6,28 @@
 
 @layer components {
   .container {
-    @apply m-auto w-[74%];
+    @apply m-auto w-[74%] max-md:w-[80%] max-sm:w-[90%];
   }
   .heading {
-    @apply font-semibold leading-[140%];
+    @apply font-semibold leading-[140%] max-md:leading-[110%];
   }
   .main-heading {
-    @apply font-bold text-white text-[58px];
+    @apply font-bold text-white text-[58px] max-xl:text-[50px] max-md:text-[45px] max-sm:font-[32px];
+  }
+  .common-pera {
+    @apply text-xs font-poppins font-normal leading-[160%] max-md:leading-[120%];
   }
   .sec-name {
-    @apply text-orange text-sm font-medium tracking-[4.2px] font-poppins;
+    @apply text-orange text-sm font-medium tracking-[4.2px] font-poppins max-sm:font-[14px];
+  }
+  .btn{
+    @apply bg-none border-none;
+  }
+  .social{
+    @apply w-12 h-12 bg-orange rounded-full flex justify-center items-center
+  }
+  .list-item{
+    @apply font-lato text-white text-lg;
   }
 }
 
