@@ -23,12 +23,18 @@
   .btn{
     @apply bg-none border-none;
   }
+
+  /* Footer Start*/
   .social{
     @apply w-12 h-12 bg-orange rounded-full flex justify-center items-center
   }
   .list-item{
-    @apply font-lato text-white text-lg;
+    @apply font-lato text-white text-lg font-normal;
   }
+  .footer-menu-head{
+    @apply text-xl text-white font-lato font-bold mb-[6px]
+  }
+  /* Footer End */
 }
 
 @layer base {
