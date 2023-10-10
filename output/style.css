@@ -534,11 +534,36 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.font-extrabold {
-  font-weight: 800;
+.container {
+  width: 100%;
 }
 
-.text-orange {
-  --tw-text-opacity: 1;
-  color: rgb(128 237 153 / var(--tw-text-opacity));
+@media (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 992px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
 }
