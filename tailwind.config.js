@@ -2,11 +2,11 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
+    colors: {
+      orange: "#80ed99",
+      bgblack: "#031333",
+    },
     extend: {
-      colors: {
-        orange: "#F54C1E",
-        bgblack: "#031333",
-      },
       fontFamily: {
         lato: ["lato"],
         inter: ["Inter"],
