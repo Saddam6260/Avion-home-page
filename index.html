@@ -19,15 +19,15 @@
             <button class="w-4">
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
-            <button><i class="fa-solid fa-bars"></i></button>
+            <button class="text-xl"><i class="fa-solid fa-bars"></i></button>
           </div>
-          <h3 class="order-1">Avion</h3>
+          <h2 class="text-2xl order-1">Avion</h2>
           <div class="hidden">
             <button><i class="fa-solid fa-cart-shopping"></i></button>
             <button><i class="fa-regular fa-user"></i></button>
           </div>
         </div>
-        <div class="menu">
+        <div class="hidden">
           <ul>
             <li><a href="">Plant pots</a></li>
             <li><a href="">Ceramics</a></li>
@@ -42,19 +42,19 @@
     </header>
 
     <!-- Main section -->
-    <section>
-      <div class="container">
-        <div>
-          <h2>The furniture brand for the future, with timeless designs</h2>
-          <button>View collection</button>
-          <p>
+    <section class="bg-darkBlue xl:bg-white pt-10 pb-6 xl:pt-[60px] xl:pb-[60px]">
+      <div class="container grid md:grid-cols-2 xl:grid-cols-[60%__40%]">
+        <div class="flex flex-col items-start xl:bg-darkBlue md:pr-5 lg:pr-12 xl:pr-24 xl:py-[60px] xl:pl-[60px]">
+          <h1 class="xl:pr-[100px]">The furniture brand for the future, with timeless designs</h1>
+          <button class="btn bg-btnBg order-2 xl:order-1 xl:mt-10">View collection</button>
+          <p class="order-1 xl:order-2 text-white text-[18px] mt-20 xl:mt-[196px] md:mt-10 lg:mt-16 xl:mt-20 mb-8">
             A new era in eco friendly furniture with Avelon, the French luxury
             retail brand with nice fonts, tasteful colors and a beautiful way to
             display things digitally using modern web technologies.
           </p>
         </div>
-        <div>
-          <img src="./images/main-sec-img.png" alt="" />
+        <div class="hidden md:flex" >
+          <img src="./assets/images/main-sec-img.png" alt="" />
         </div>
       </div>
     </section>

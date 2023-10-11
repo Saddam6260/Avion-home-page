@@ -15,6 +15,8 @@ module.exports = {
     colors: {
       lightGray: "#F9F9F9",
       darkBlue: "#2A254B",
+      white: "#fff",
+      btnBg: "rgba(249, 249, 249, 0.15)",
     },
     extend: {},
   },
