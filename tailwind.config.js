@@ -5,8 +5,8 @@ module.exports = {
     screens: {
       sm: "390px",
       md: "769px",
-      lg: "992",
-      xl: "1440",
+      lg: "992px",
+      xl: "1440px",
     },
     fontFamily: {
       clashi: "ClashDisplay-Regular",

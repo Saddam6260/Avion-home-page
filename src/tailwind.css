@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Font Family */
 @font-face {
   font-family: "Satoshi-Regular";
   src: url("../assets/font/Satoshi-Regular.otf");
@@ -9,4 +10,37 @@
 @font-face {
   font-family: "ClashDisplay-Regular";
   src: url("../assets/font/ClashDisplay-Regular.otf");
+}
+
+/* Base */
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-clashi font-normal;
+  }
+  p,
+  li,
+  a,
+  button,
+  span {
+    @apply font-satoshi font-normal;
+  }
+}
+
+/* Components */
+@layer components {
+  .container {
+    @apply w-[100%] max-w-[330px] sm:max-w-[340px] md:max-w-[720px] lg:max-w-[840px] xl:max-w-[1280px] m-auto;
+  }
+  .wrapper {
+    @apply w-[100%] max-w-[330px] sm:max-w-[340px] md:max-w-[740px] lg:max-w-[944px] xl:max-w-[1384px] m-auto;
+  }
+}
+
+/* Utilities */
+@layer utilities {
 }

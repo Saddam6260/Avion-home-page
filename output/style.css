@@ -434,6 +434,25 @@ video {
   display: none;
 }
 
+h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+  font-family: ClashDisplay-Regular;
+  font-weight: 400;
+}
+
+p,
+  li,
+  a,
+  button,
+  span {
+  font-family: Satoshi-Regular;
+  font-weight: 400;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -550,26 +569,117 @@ video {
   }
 }
 
-@media (min-width: 992) {
+@media (min-width: 992px) {
   .container {
-    max-width: 992;
+    max-width: 992px;
   }
 }
 
-@media (min-width: 1440) {
+@media (min-width: 1440px) {
   .container {
-    max-width: 1440;
+    max-width: 1440px;
   }
 }
 
-.font-clashi {
-  font-family: ClashDisplay-Regular;
+.container {
+  margin: auto;
+  width: 100%;
+  max-width: 330px;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+@media (min-width: 390px) {
+  .container {
+    max-width: 340px;
+  }
 }
+
+@media (min-width: 769px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 840px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+.wrapper {
+  margin: auto;
+  width: 100%;
+  max-width: 330px;
+}
+
+@media (min-width: 390px) {
+  .wrapper {
+    max-width: 340px;
+  }
+}
+
+@media (min-width: 769px) {
+  .wrapper {
+    max-width: 740px;
+  }
+}
+
+@media (min-width: 992px) {
+  .wrapper {
+    max-width: 944px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .wrapper {
+    max-width: 1384px;
+  }
+}
+
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-x-5 {
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+/* Font Family */
 
 @font-face {
   font-family: "Satoshi-Regular";
@@ -582,3 +692,9 @@ video {
 
   src: url("../assets/font/ClashDisplay-Regular.otf");
 }
+
+/* Base */
+
+/* Components */
+
+/* Utilities */
