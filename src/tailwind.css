@@ -53,7 +53,25 @@
   }
 
   /* Header */
-  
+  .header-top {
+    @apply py-4 xl:py-5 flex justify-between items-center border-b-[1px] border-b-purple;
+  }
+
+  /* Main */
+  .main {
+    @apply bg-darkBlue xl:bg-white pt-10 pb-6 xl:pt-[60px] xl:pb-[60px];
+  }
+  .main-container {
+    @apply grid md:grid-cols-2 xl:grid-cols-[60%__40%];
+  }
+  .main-content {
+    @apply flex flex-col items-start xl:bg-darkBlue md:pr-5 lg:pr-12 xl:pr-24 xl:py-[60px] xl:pl-[60px];
+  }
+
+  /* Difrent Band */
+  .difrent-band-cardset{
+    
+  }
 }
 
 /* Utilities */
