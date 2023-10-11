@@ -48,6 +48,9 @@
   .content-heading {
     @apply text-xl lg:text-2xl;
   }
+  .sec-heading {
+    @apply text-xl lg:text-[32px]
+  }
   .description {
     @apply text-description text-sm lg:text-base;
   }
@@ -70,7 +73,7 @@
 
   /* Difrent Band */
   .difrent-band-cardset{
-    
+
   }
 }
 
