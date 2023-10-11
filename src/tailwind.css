@@ -45,6 +45,12 @@
   .btn {
     @apply w-full py-4 text-white lg:w-auto px-8;
   }
+  .content-heading {
+    @apply text-xl lg:text-2xl;
+  }
+  .description {
+    @apply text-description text-sm lg:text-base;
+  }
 }
 
 /* Utilities */

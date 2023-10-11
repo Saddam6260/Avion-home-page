@@ -17,6 +17,7 @@ module.exports = {
       darkBlue: "#2A254B",
       white: "#fff",
       btnBg: "rgba(249, 249, 249, 0.15)",
+      description: "#505977",
     },
     extend: {},
   },
