@@ -18,6 +18,7 @@ module.exports = {
       white: "#fff",
       btnBg: "rgba(249, 249, 249, 0.15)",
       description: "#505977",
+      purple: "#726E8D",
     },
     extend: {},
   },
