@@ -230,24 +230,24 @@
     </section>
 
     <!-- Our Populer Product -->
-    <section>
+    <section class="pt-12 pb-9 xl:pt-[60px] xl:pb-12">
       <div class="container">
         <h3 class="sec-heading mb-5">Our popular products</h3>
-        <div>
-          <div>
-            <img src="./images/suede-sofa.png" alt="" />
-            <h3>The Poplar suede sofa</h3>
-            <h3>£980</h3>
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-x-4">
+          <div class="hidden lg:flex flex-col col-span-2">
+            <img src="./assets/images/suede-sofa.png" alt="" />
+            <h3 class="text-xl mt-6 mb-2">The Poplar suede sofa</h3>
+            <p class="text-lg">£980</p>
           </div>
           <div>
-            <img src="./images/dandy-cheir.png" alt="" />
-            <h3>The Dandy chair</h3>
-            <h3>£250</h3>
+            <img src="./assets/images/dandy-cheir.png" alt="" />
+            <h3 class="text-xl mt-6 mb-2">The Dandy chair</h3>
+            <p class="text-lg">£250</p>
           </div>
           <div>
-            <img src="./images/lucy-lamp.png" alt="" />
-            <h3>The Dandy chair</h3>
-            <h3>£250</h3>
+            <img src="./assets/images/lucy-lamp.png" alt="" />
+            <h3 class="text-xl mt-6 mb-2">The Dandy chair</h3>
+            <p class="text-lg">£250</p>
           </div>
         </div>
         <div class="flex justify-center">
@@ -259,14 +259,25 @@
     </section>
 
     <!-- Join Our Club -->
-    <section>
+    <section class="pt-12 pb-9 xl:pt-[68px] xl:pb-[52px]">
       <div class="container">
-        <h2>Join the club and get the benefits</h2>
-        <p>
-          Sign up for our newsletter and receive exclusive offers on new ranges,
-          sales, pop up stores and more
-        </p>
-        <button>Sign up</button>
+        <div
+          class="md:mx-auto md:text-center max-w-[400px] lg:max-w-[500px] xl:max-w-[570px]"
+        >
+          <h2 class="sec-heading">Join the club and get the benefits</h2>
+          <p class="description mt-4 mb-16 xl:px-11">
+            Sign up for our newsletter and receive exclusive offers on new
+            ranges, sales, pop up stores and more
+          </p>
+          <div>
+            <input
+              type="email"
+              placeholder="your@email.com"
+              class="bg-lightGray py-4 pl-6 mr-[-4px]"
+            />
+            <button class="btn bg-darkBlue w-auto">Sign up</button>
+          </div>
+        </div>
       </div>
     </section>
 

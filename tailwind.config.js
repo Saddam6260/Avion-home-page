@@ -13,12 +13,13 @@ module.exports = {
       satoshi: "Satoshi-Regular",
     },
     colors: {
-      lightGray: "#F9F9F9",
+      lightGray: "#dee2e6",
       darkBlue: "#2A254B",
       white: "#fff",
       btnBg: "rgba(249, 249, 249, 0.15)",
       description: "#505977",
       purple: "#726E8D",
+      black: "#000"
     },
     extend: {},
   },
