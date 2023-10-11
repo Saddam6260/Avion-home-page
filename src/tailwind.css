@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Satoshi-Regular";
+  src: url("../assets/font/Satoshi-Regular.otf");
+}
+@font-face {
+  font-family: "ClashDisplay-Regular";
+  src: url("../assets/font/ClashDisplay-Regular.otf");
+}

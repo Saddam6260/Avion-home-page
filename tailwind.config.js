@@ -2,23 +2,21 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
+    screens: {
+      sm: "390px",
+      md: "769px",
+      lg: "992",
+      xl: "1440",
+    },
+    fontFamily: {
+      clashi: "ClashDisplay-Regular",
+      satoshi: "Satoshi-Regular",
+    },
     colors: {
-      orange: "#80ed99",
-      bgblack: "#031333",
+      lightGray: "#F9F9F9",
+      darkBlue: "#2A254B",
     },
-    extend: {
-      fontFamily: {
-        lato: ["lato"],
-        inter: ["Inter"],
-        poppins: ["Poppins"],
-      },
-      screens: {
-        sm: "375px",
-        md: "768px",
-        lg: "992px",
-        xl: "1200px",
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };

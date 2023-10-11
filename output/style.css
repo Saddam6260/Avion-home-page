@@ -538,32 +538,47 @@ video {
   width: 100%;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 390px) {
   .container {
-    max-width: 375px;
+    max-width: 390px;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .container {
-    max-width: 768px;
+    max-width: 769px;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992) {
   .container {
-    max-width: 992px;
+    max-width: 992;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1440) {
   .container {
-    max-width: 1200px;
+    max-width: 1440;
   }
 }
 
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
+.font-clashi {
+  font-family: ClashDisplay-Regular;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+@font-face {
+  font-family: "Satoshi-Regular";
+
+  src: url("../assets/font/Satoshi-Regular.otf");
+}
+
+@font-face {
+  font-family: "ClashDisplay-Regular";
+
+  src: url("../assets/font/ClashDisplay-Regular.otf");
 }
