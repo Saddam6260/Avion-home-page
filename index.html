@@ -273,9 +273,9 @@
             <input
               type="email"
               placeholder="your@email.com"
-              class="bg-lightGray py-4 pl-6 mr-[-4px]"
+              class="bg-lightGray py-[17px] pl-4 sm:pl-6 mr-[-4px] lg:w-[354px]"
             />
-            <button class="btn bg-darkBlue w-auto">Sign up</button>
+            <button class="btn px-5 sm:px-8 bg-darkBlue w-auto">Sign up</button>
           </div>
         </div>
       </div>
@@ -304,41 +304,52 @@
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="bg-darkBlue text-white pt-10">
       <div class="container">
-        <div>
-          <div>
-            <ul>
-              <p>Menu</p>
-              <li><a href="">New arrivals</a></li>
-              <li><a href="">Best sellers</a></li>
-              <li><a href="">Recently viewed</a></li>
-              <li><a href="">Popular this week</a></li>
-              <li><a href="">All products</a></li>
+        <div
+          class="flex flex-col lg:flex-row lg:justify-between lg:items-start"
+        >
+          <div class="flex flex-wrap gap-x-24 gap-y-10 xl:gap-x-[133px]">
+            <ul class="flex flex-col order-2 md:order-1 gap-y-[10px]">
+              <p class="text-base">Menu</p>
+              <li class="text-sm"><a href="">New arrivals</a></li>
+              <li class="text-sm"><a href="">Best sellers</a></li>
+              <li class="text-sm"><a href="">Recently viewed</a></li>
+              <li class="text-sm"><a href="">Popular this week</a></li>
+              <li class="text-sm"><a href="">All products</a></li>
             </ul>
-            <ul>
-              <p>Categories</p>
-              <li><a href="">Crockery</a></li>
-              <li><a href="">Furniture</a></li>
-              <li><a href="">Homeware</a></li>
-              <li><a href="">Plant pots</a></li>
-              <li><a href="">Chairs</a></li>
-              <li><a href="">Crockery</a></li>
+            <ul class="flex flex-col order-1 md:order-2 gap-y-[10px]">
+              <p class="text-base">Categories</p>
+              <li class="text-sm"><a href="">Crockery</a></li>
+              <li class="text-sm"><a href="">Furniture</a></li>
+              <li class="text-sm"><a href="">Homeware</a></li>
+              <li class="text-sm"><a href="">Plant pots</a></li>
+              <li class="text-sm"><a href="">Chairs</a></li>
+              <li class="text-sm"><a href="">Crockery</a></li>
             </ul>
-            <ul>
-              <p>Our company</p>
-              <li><a href="">About us</a></li>
-              <li><a href="">Vacancies</a></li>
-              <li><a href="">Contact us</a></li>
-              <li><a href="">Privacy</a></li>
-              <li><a href="">Returns policy</a></li>
+            <ul class="flex flex-col order-3 gap-y-[10px]">
+              <p class="text-base">Our company</p>
+              <li class="text-sm"><a href="">About us</a></li>
+              <li class="text-sm"><a href="">Vacancies</a></li>
+              <li class="text-sm"><a href="">Contact us</a></li>
+              <li class="text-sm"><a href="">Privacy</a></li>
+              <li class="text-sm"><a href="">Returns policy</a></li>
             </ul>
           </div>
-          <div></div>
+          <div class="mt-10 lg:mt-0">
+            <p class="text-base">Join our mailing list</p>
+            <div class="py-4">
+              <input
+                type="email"
+                placeholder="your@email.com"
+                class="bg-btnBg py-[17px] pl-4 sm:pl-6 mr-[-4px] xl:w-[500px]"
+              />
+              <button class="btn px-5 sm:px-8 bg-white text-darkBlue w-auto">Sign up</button>
+            </div>
+          </div>
         </div>
-        <div>
-          <p>Copyright 2022 Avion LTD</p>
-          <ul>
+        <div class="lg:flex justify-between lg:mt-10 lg:py-5 border-t border-purple">
+          <ul class="flex py-2 lg:py-0 gap-x-5 border-t border-purple lg:border-t-0">
             <li>
               <a href=""><i class="fa-brands fa-linkedin"></i></a>
             </li>
@@ -358,6 +369,9 @@
               <a href=""><i class="fa-brands fa-pinterest"></i></a>
             </li>
           </ul>
+          <div class="py-5 lg:py-0 border-t border-purple lg:border-t-0 flex justify-center">
+            <p class="text-sm">Copyright 2022 Avion LTD</p>
+          </div>
         </div>
       </div>
     </footer>
